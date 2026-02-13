@@ -121,6 +121,16 @@ sns.heatmap(df.corr(numeric_only=True), annot=False)
 plt.title("Correlation Heatmap")
 
 plt.tight_layout()
+
+print("\n========== BUSINESS RECOMMENDATIONS ==========")
+
+print("✔ Promote high-rated menu items more aggressively.")
+print("✔ Remove or redesign low-selling dishes.")
+print("✔ Adjust pricing for items with low demand.")
+print("✔ Introduce combo offers for popular categories.")
+print("✔ Improve menu design to highlight best dishes.")
+
 plt.show()
+
 
 
